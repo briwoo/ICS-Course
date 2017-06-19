@@ -28,12 +28,11 @@ def old_roman_numeral num
     elsif num/1!=0
       i = num/1
       roman = roman + 'I'*i
-      num = num%i
+      num = num%1
     end
   end
 puts roman
 end
 
 puts 'Enter any number between 1 and 3000'
-puts 'In Old Roman Numerals:'
 puts old_roman_numeral gets.chomp.to_i
