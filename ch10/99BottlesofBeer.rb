@@ -76,21 +76,21 @@ left = 0
 num_string
 end
 
-bottles = 9999
+bottles = 99
 while bottles>1
-  puts english_number(bottles) + ' bottles of beer on the wall'
-  puts english_number(bottles) + ' bottles of beer'
-  puts 'take one down and pass it around'
+  puts english_number(bottles).capitalize + ' bottles of beer on the wall'
+  puts english_number(bottles).capitalize + ' bottles of beer'
+  puts 'Take one down and pass it around'
   bottles = bottles-1
-  puts english_number(bottles) + ' bottles of beer on the wall'
+  puts english_number(bottles).capitalize + ' bottles of beer on the wall'
   puts ''
 end
-puts 'one bottle of beer on the wall'
-puts 'one bottle of beer'
-puts 'take one down and pass it around'
-puts 'no more bottles of beer on the wall'
+puts 'One bottle of beer on the wall'
+puts 'One bottle of beer'
+puts 'Take one down and pass it around'
+puts 'No more bottles of beer on the wall'
 puts ''
-puts 'no more bottles of beer on the wall'
-puts 'no more bottles of beer'
+puts 'No more bottles of beer on the wall'
+puts 'No more bottles of beer'
 puts 'Go to the store and buy some more'
-puts 'ninety nine bottles of beer on the wall'
+puts 'Ninety nine bottles of beer on the wall'

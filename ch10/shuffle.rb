@@ -5,9 +5,9 @@ def recursive_shuffle unshuffled_array, shuffled_array
   if unshuffled_array.length <= 0
     return shuffled_array
   end
-  new = unshuffled_array[rand(unshuffled_array.length)]
-  unshuffled_array.delete(new)
-  shuffled_array.push(new)
+  newWord = unshuffled_array[rand(unshuffled_array.length)]
+  unshuffled_array.delete(newWord)
+  shuffled_array.push(newWord)
 recursive_shuffle unshuffled_array, shuffled_array
 end
 
